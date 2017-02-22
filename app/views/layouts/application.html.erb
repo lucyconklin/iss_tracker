@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IssTracker</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    fingerprinted_asset('application'), media: 'all' %>
+    <%= javascript_include_tag fingerprinted_asset('application') %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
