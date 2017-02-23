@@ -27,15 +27,16 @@ module.exports = {
           presets: ['es2015']
         }
       },
+
+      // { test: /\.css$/, loader: "style!css" },
+      // { test: /\.scss$/, loader: "style!css!sass" }
+
+
       { test: /(\.css|\.scss)$/,
         use: ExtractTextPlugin.extract({
           fallback: "style-loader",
           use: [
             { loader: "css-loader",
-                options: {sourceMap: true,
-                          modules: true,
-                          importLoaders: true,
-                          localIdentName: "[name]__[local]___[hash:base64:5]"}
             },
             { loader: "sass-loader", options: { sourceMap: true } }
           ]

@@ -1,50 +1,51 @@
 body {
-      background-color: #142448;
-      margin: 0;
-      padding: 0;
-    }
-    svg {
-    	background-color: #5572B3;
-    }
+  background-color: #142448;
+  margin: 0;
+  padding: 0;
+}
 
-	.land {
-	  fill: #688CC4;
-	  stroke: #80ABD9;
-    stroke-alignment: inside;
-	}
+svg {
+	background-color: #5572B3;
+}
 
-	.boundary {
-	  fill: none;
-	  stroke: rgba(255,255,255,0.25);
-    stroke-alignment: inside;
-	}
+g.land {
+  fill: #688CC4;
+  stroke: #80ABD9;
+  stroke-alignment: inside;
+}
 
-	.graticule {
-	  fill: none;
-	  stroke: #fff;
-	  stroke-width: .5px;
-	}
+g.boundary {
+  fill: none;
+  stroke: rgba(255,255,255,0.25);
+  stroke-alignment: inside;
+}
 
-	.graticule :nth-child(2n) {
-	  stroke-dasharray: 2,2;
-	}
+.graticule {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
 
-  #header {
-    background-color: steelblue;
-    height:60px;
-  }
+.graticule :nth-child(2n) {
+  stroke-dasharray: 2,2;
+}
 
-  #enter-zipcode {
-    background-color: dogerblue;
-    height:80px;
-  }
+#header {
+  background-color: #142448;
+  height:60px;
+}
 
-  #next-passover {
-    background-color: steelblue;
-    height:80px;
-  }
+#enter-zipcode {
+  background-color: dogerblue;
+  height:80px;
+}
 
-  #send-text {
-    background-color: dogerblue;
-    height:80px;
-  }
+#next-passover {
+  background-color: steelblue;
+  height:80px;
+}
+
+#send-text {
+  background-color: dogerblue;
+  height:80px;
+}
