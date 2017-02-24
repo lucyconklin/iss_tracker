@@ -1,13 +1,9 @@
 {
-  "engines": {
-    "name": "myapp",
-    "description": "a really cool app",
-    "version": "1.0.0",
-    "engines": { "node": "6.9.4" }
-  },
-  "scripts": {
-    "heroku-postbuild": "webpack"
-  },
+  "name": "iss_tracker",
+  "description": "an app to track the ISS",
+  "version": "1.0.0",
+  "engines": { "node": "7.6.0" },
+  "scripts": { "heroku-postbuild": "webpack" },
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
