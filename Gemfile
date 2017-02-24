@@ -8,6 +8,8 @@ end
 gem 'rails', '~> 5.0.1'
 gem 'pg'
 gem 'puma', '~> 3.0'
+gem 'sass-rails'
+gem 'sass'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'jbuilder', '~> 2.5'

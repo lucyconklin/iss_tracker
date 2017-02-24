@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,500,700");
+/* line 1, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+body {
+  background-color: #142448;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+svg {
+  background-color: #5572B3;
+}
+
+/* line 11, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+g.land {
+  fill: #688CC4;
+  stroke: #80ABD9;
+  stroke-alignment: inside;
+}
+
+/* line 17, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+g.boundary {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.25);
+  stroke-alignment: inside;
+}
+
+/* line 23, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+.graticule {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+/* line 29, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+.graticule :nth-child(2n) {
+  stroke-dasharray: 2,2;
+}
+
+/* line 33, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+#header {
+  background-color: #142448;
+  height: 60px;
+}
+
+/* line 38, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+#enter-zipcode {
+  background-color: dogerblue;
+  height: 80px;
+}
+
+/* line 43, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+#next-passover {
+  background-color: steelblue;
+  height: 80px;
+}
+
+/* line 48, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_frame.scss */
+#send-text {
+  background-color: dogerblue;
+  height: 80px;
+}
+
+/* line 1, /Users/Lucy/turing/3module/projects/iss_tracker/app/assets/stylesheets/_typography.scss */
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  color: #80ABD9;
+  font-weight: 200;
+}
