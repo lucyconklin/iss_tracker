@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "webpack:deploy": "webpack",
-    "heroku-postbuild": "webpack:deploy"
+    "heroku-postbuild": "webpack"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
