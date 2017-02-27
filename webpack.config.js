@@ -28,16 +28,11 @@ module.exports = {
         }
       },
 
-      // { test: /\.css$/, loader: "style!css" },
-      // { test: /\.scss$/, loader: "style!css!sass" }
-
-
       { test: /(\.css|\.scss)$/,
         use: ExtractTextPlugin.extract({
           fallback: "style-loader",
           use: [
-            { loader: "css-loader",
-            },
+            { loader: "css-loader" },
             { loader: "sass-loader", options: { sourceMap: true } }
           ]
         }),
@@ -58,10 +53,7 @@ module.exports = {
           const asset_path = basepath + paths[x];
 
           fs.readdir(asset_path, function(err, files) {
-            if (files === undefined) {
-              return;
-            }
-
+            if (files === undefined) { return; }
             for (let i = 0; i < files.length; i++) {
               fs.unlinkSync(asset_path + "/" + files[i]);
             }
